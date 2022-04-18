@@ -7,5 +7,6 @@ describe("#findRotatedIndex", function(){
     expect(findRotatedIndex([6, 7, 8, 9, 1, 2, 3, 4], 3)).toBe(6)
     expect(findRotatedIndex([37, 44, 66, 102, 10, 22], 14)).toBe(-1)
     expect(findRotatedIndex([6, 7, 8, 9, 1, 2, 3, 4], 12)).toBe(-1)
+    expect(findRotatedIndex([2311, 2352, 5699934, 6983477723892, 1, 5, 235, 736], 5)).toBe(5)
   })
 })
